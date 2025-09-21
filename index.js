@@ -1,7 +1,7 @@
 const crypto = require("crypto");
 const fs = require("fs");
 
-const SERVICE_ACCOUNT_FILE = "./sisadm-expensas-28655ffce6fd.json";
+const SERVICE_ACCOUNT_FILE = "./service/sisadm-expensas-24b2886b898a.json";
 
 const service_account = JSON.parse(fs.readFileSync(SERVICE_ACCOUNT_FILE));
 
